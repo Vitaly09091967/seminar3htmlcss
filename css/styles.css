@@ -10,17 +10,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; 
+    padding: 10px 20px;
 }
 
-.logo img {    
-    color: #F25822;    
+.logo img {
+    color: #F25822;
 }
 
 .top_menu {
     display: flex;
     align-items: center;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .nav_menu ul {
@@ -40,7 +40,7 @@ header {
     line-height: normal;
 }
 
-.link-menu.red-text a {    
+.link-menu.red-text a {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
@@ -72,17 +72,17 @@ h1 {
     margin: 0;
 }
 
-p {    
+p {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
-.buttons-section {
+buttons-section {
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -121,20 +121,29 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px; 
-    height: 50px; 
+    width: 1200px;
+    height: 50px;
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+.logos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.logos ul li {
+    flex-shrink: 0; 
+    margin-right: 10px; 
 }
 
 .logos img {
-    width: 160px; 
-    height: 50px; 
-}
-
-.logos.ul {
     width: 160px;
     height: 50px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 
